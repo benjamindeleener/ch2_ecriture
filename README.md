@@ -6,7 +6,7 @@ Avant de commencer. Consulter les instructions à suivre dans [instructions.md](
 
 ## Objectif
 
-Modifier les caractères pour que les lettres minuscules se transforment en majuscule.
+Modifier les caractères pour que les lettres minuscules se transforment en majuscule, sans utiliser de fonctions natives de Python.
 
 ### Exemple
 ```python
