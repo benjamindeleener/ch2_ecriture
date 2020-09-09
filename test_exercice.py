@@ -13,8 +13,8 @@ class TestExercice(unittest.TestCase):
             self.words = [word.replace('\n', '') for word in f.readlines()]
     
     def test_upper_case_names(self):
-        altered_names = [word.upper() for word in self.countries]
-        output = list(map(exercice.majuscule, altered_names))
+        altered_words = [word.upper() for word in self.countries]
+        output = list(map(exercice.majuscule, altered_words))
         self.assertListEqual(
             output,
             self.words,
